@@ -21,15 +21,16 @@
 - [Tactical RMM Release Notes](https://github.com/wh1te909/tacticalrmm/releases)
 
 ### External Resources
+
 > These resources have not been created by the Tactical RMM Team, nor do we maintain them or financially benefit from them.
+
+Since you're probably an MSP or doing Computer management stuff here's a google sheet with a bunch of services that you can check for yourself. If you see missing data, feel free to update and help the next guy. 
+
+<https://docs.google.com/spreadsheets/d/1Z5JUC-FCYAIzyW2rAoXLpQYq0a8VFJ5VUh5gqSerWPY/>
 
 #### Windows 7 and Powershell v2 scripts
 
 <https://github.com/darimm/RMMFunctions>
-
-#### Docker backup scripts
-
-<https://github.com/larseberhardt/TRMM-Docker-Backup-Script>
 
 #### Grafana Dashboards
 
@@ -37,29 +38,65 @@ Get graphical dashboards for status screens, wall TVs and NOCs
 
 <https://github.com/dinger1986/TRMM-Grafana>
 
-#### Rotating backup scripts
-
-<https://github.com/fts-tmassey/tacticalrmm-cronbackup>
-
 #### Kubernetes files
 
 <https://github.com/amidaware/trmm-awesome/tree/main/kubernetes>
-
-#### Azure terraform scripts
-
-<https://github.com/redanthrax/tacticalrmm-aks>
-
-#### Docker update, certificates and other stuff
-
-<https://github.com/vaughngx4/tactical-stuff>
 
 #### Migrate MeshCentral2 database from mongo to postgres
 
 <https://github.com/amidaware/trmm-awesome/blob/main/scripts/migrate-mesh-to-postgres.sh>
 
+#### trmm-cli access to api
+
+<https://gitlab.com/NiceGuyIT/trmm-cli>
+
+#### Docker update, certificates and other stuff
+
+<https://github.com/vaughngx4/tactical-stuff>
+
+#### Docker upgrade postgres 13 to 14
+
+<https://github.com/amidaware/trmm-awesome/blob/main/scripts/trmmdockerpostgresupdate.txt>
+
+#### Docker backup scripts
+
+<https://github.com/larseberhardt/TRMM-Docker-Backup-Script>
+
+#### Azure terraform scripts
+
+<https://github.com/redanthrax/tacticalrmm-aks>
+
+#### Rundeck Plugin
+
+<https://github.com/SoarinFerret/tacticalrmm-rundeck-plugin>
+
+#### Zabbix Howto
+
+<https://github.com/bernardolankheet/TacticalRMM-Extras/tree/devep/Template-TRMM-for-Zabbix>
+
+#### RustDesk Integration
+
+Install your own RustDesk Server as an alternative to MeshCentral
+
+<https://github.com/vegetable8/TRMM-RustDesk-Integration>
+
+#### Webhooks
+<https://github.com/daileycomputerconsulting/tactical-rmm-webhooks>
+
 ### Official Community
 
 - [Official Chat Room - Discord](https://discord.gg/upGTkWp)
+
+### Misc Scripts from Users
+
+- Deleting Clients and Sites in TRMM
+- Print job fixing
+- Preview updates to ignore across all agents using the API and without installing any 3rd party libraries
+- Toggle the approval and installation of a specific KB across all agents using the API and without installing any 3rd party libraries
+- Syncs agents from Tactical RMM to Hudu
+- Installs Sophos Endpoint via the Sophos API
+
+<https://github.com/bc24fl/tacticalrmm-scripts>
 
 ### Tutorials
 
